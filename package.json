@@ -1,0 +1,22 @@
+{
+  "name": "stencil-app-example",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "npm run server",
+    "server": "stencil build --dev --serve --watch --es5"
+  },
+  "dependencies": {
+    "@stencil/core": "~0.13.2",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "@stencil/sass": "^0.1.1",
+    "normalize.css": "^8.0.0"
+  }
+}
