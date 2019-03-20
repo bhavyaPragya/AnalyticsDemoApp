@@ -10,7 +10,7 @@ export class MyName {
     return (
       <div>
         <a href="https://google.com">Anchor Click</a>
-        <cta-button title="shadow button" di-class="dxp-component" di-type="button" di-id="shadow dom button click"></cta-button>       
+        <cta-button title="shadow button" di-class="shadow-hydrated" di-type="button" di-id="shadow dom button click"></cta-button>       
       </div>
     );
   }
